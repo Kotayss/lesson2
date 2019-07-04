@@ -27,34 +27,34 @@ public class lesson2 {
             }
         ///verno
         else if (a > 0){
-            if (b != 0 ) {
-                if (D >= 0)
-                    System.out.println("x1 = " + (-b + D) / (2 * a) + "\nx2 = " + (-b - D) / (2 * a));
-                else
-                    System.out.println("уравнение не имеет вещественных корней");
-            }
-            if( b == 0){
-                if (c <= 0)
-                    System.out.println("x1 = " + Math.sqrt(-c/a) + "\nx2 = " + (-Math.sqrt(-c/a)));
-                else
-                  System.out.println("уравнение не имеет вещественных корней");
-            }
+                if (b != 0 ) {
+                   if (D >= 0)
+                     System.out.println("x1 = " + (-b + D) / (2 * a) + "\nx2 = " + (-b - D) / (2 * a));
+                   else
+                     System.out.println("уравнение не имеет вещественных корней");
+                }
+                if( b == 0){
+                  if (c <= 0)
+                     System.out.println("x1 = " + Math.sqrt(-c/a) + "\nx2 = " + (-Math.sqrt(-c/a)));
+                  else
+                     System.out.println("уравнение не имеет вещественных корней");
+                }
 
         }
-        else if(a < 0){
-              if (b != 0) {
-                  if (D >= 0)
+        else if (a < 0){
+                if (b != 0) {
+                   if (D >= 0)
                       System.out.println("x1 = " + (-b + D) / (2 * a) + "\nx2 = " + (-b - D) / (2 * a));
-                  else
+                   else
                       System.out.println("уравнение не имеет вещественных корней");
-              }
-              if (b == 0){
-                  if (c >= 0)
+                }
+                if (b == 0){
+                   if (c >= 0)
                       System.out.println("x1 = " + Math.sqrt(c/a) + "\nx2 = " + (-Math.sqrt(c/a)));
-                  else
+                   else
                       System.out.println("равнение не имеет вещественных корней");
-              }
-            }
+                }
+             }
 
 
     }}
